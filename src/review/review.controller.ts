@@ -5,7 +5,7 @@ import { ReviewModel } from './review.model';
 export class ReviewController {
 
   @Get('get/:productId')
-  async getByProduct(@Param('productId') productId: string): Promise<ReviewModel[]> {
+  async getByProduct(@Param('productId') productId: string) {
 
   }
 
